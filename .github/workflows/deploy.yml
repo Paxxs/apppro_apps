@@ -54,6 +54,9 @@ jobs:
       - name: Build with Next.js
         run: pnpm build
 
+      - name: Generate search index
+        run: pnpm exec pagefind --site .next/server/app --output-path out/_pagefind
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
