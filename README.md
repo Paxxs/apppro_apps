@@ -13,11 +13,11 @@ The site is built with a minimalist yet sophisticated design philosophy, focusin
 
 ## Technology Stack
 
-- **Framework**: [Next.js](https://nextjs.org/) 15.3.2 with App Router
-- **Documentation**: [Nextra](https://nextra.site/) 4.2.17 with Docs theme
-- **UI**: React 19 with TailwindCSS 4
+- **Framework**: [Next.js](https://nextjs.org/) 16.2.9 with App Router
+- **Documentation**: [Nextra](https://nextra.site/) 4.6.1 with Docs theme
+- **UI**: React 19.2 with TailwindCSS 4.3
 - **Search**: Pagefind for static site search functionality
-- **Development**: TypeScript 5 with ESLint 9
+- **Development**: TypeScript 6 with ESLint 9
 - **Deployment**: GitHub Pages via GitHub Actions
 
 ## Getting Started

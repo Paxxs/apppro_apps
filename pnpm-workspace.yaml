@@ -1,0 +1,7 @@
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+overrides:
+  postcss: 8.5.15
+patchedDependencies:
+  nextra-theme-docs@4.6.1: patches/nextra-theme-docs@4.6.1.patch

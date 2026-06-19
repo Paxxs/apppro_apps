@@ -1,4 +1,4 @@
-export default {
+const meta = {
     // '*': {
     //     type: 'page'
     // },
@@ -28,3 +28,5 @@ export default {
         type: 'page'
     },
 }
+
+export default meta

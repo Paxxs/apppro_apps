@@ -4,6 +4,9 @@ import nextra from "nextra";
  * @type {import('next').NextConfig}
  */
 const nextConfig: import('next').NextConfig = {
+  turbopack: {
+    root: process.cwd()
+  },
   output: 'export',
   images: {
     unoptimized: true // mandatory, otherwise won't export
