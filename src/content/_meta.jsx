@@ -23,4 +23,8 @@ export default {
         title: "ClipSmart",
         type: 'page'
     },
+    lasttime: {
+        title: "LastTime",
+        type: 'page'
+    },
 }
